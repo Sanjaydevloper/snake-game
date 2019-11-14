@@ -1,10 +1,43 @@
 
 	body {
 		background: greenyellow;
+		padding: 0px;
+		margin: 0px;
 	}
 	#avtar
 	{
 		width: 330px;
 		height: 300px;
 		border-radius: 300px;
+		text-align: center;
 	}
+	.nav_container{
+		width: 100%;
+		height: 48px;
+		display: flex;
+		background-color: #886363;
+		flex-direction: row;
+
+	}
+	.center {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 50%;
+	  }
+	  .nav_link_container{
+		  padding: 8px;
+		  margin-right: 12px;
+	  }
+	  .nav_link{
+		  width: 100px;
+		  height: 100%;
+		  display: flex;
+		  justify-content: center;
+		  align-items: center;
+		  text-decoration: none;
+		  color: red;
+		  background-color: white;
+		  border-radius: 20px;
+	  }
+		

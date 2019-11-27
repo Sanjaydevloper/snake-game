@@ -143,10 +143,7 @@ body {
 	color: #757575;
 	line-height: 150%;
   }
-  
-  #game {
-	border: 5px solid orange;
-	background-color: darkslategray;
-	margin: 50px;
-	border-radius: 15px;
-  }
+  canvas{
+	display: block;
+	margin: 0 auto;
+}
